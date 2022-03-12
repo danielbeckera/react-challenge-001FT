@@ -1,4 +1,4 @@
-import { Container, Section1, Section2, Section3 } from "./styles";
+import { Container, Section1, Section2, Section3, Section4 } from "./styles";
 
 import imageSection1 from "../../assets/images/ImageSection1.svg";
 import imageSection3 from "../../assets/images/ImageSection3.svg";
@@ -22,16 +22,12 @@ export function MainContent() {
             tribe. A tribe that together has the power to create new affordable
             solutions in childcare that work for you and your community.
           </p>
-          <a className="getStarted" href="/">
-            Ready to get started?
-          </a>
+          <a href="/">Ready to get started?</a>
         </div>
         <div>
           <img
             src={imageSection1}
-            alt="Notebook with a babysitter location and cost per week"
-            loading="lazy"
-            className="mf-img-size"
+            alt="a notebook showing the platform overview"
           />
         </div>
       </Section1>
@@ -46,12 +42,7 @@ export function MainContent() {
         </div>
       </Section2>
       <Section3>
-        <img
-          src={imageSection3}
-          alt="Notebook with a babysitter location and cost per week"
-          loading="lazy"
-          className="mf-img-size"
-        />
+        <img src={imageSection3} alt="platform overview" />
         <div>
           <h2>Shared payments made simple</h2>
           <p>
@@ -64,6 +55,16 @@ export function MainContent() {
           <a href="/">Read how Bridget’s share (without Hapu) ended over $15</a>
         </div>
       </Section3>
+      <Section4>
+        <h2>A framework built for the long term</h2>
+        <p>
+          Childcare is for the long term. And you need a framework you can count
+          on that gives your share long term viability and success. That’s why
+          we’ve defined Hapu around our three tribal principles; clearly defined
+          process, transparency over money and equality of participation.
+        </p>
+        <a href="/">Read how Hapu’s tribal background defines our app</a>
+      </Section4>
     </Container>
   );
 }

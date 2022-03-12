@@ -118,6 +118,7 @@ export const Section2 = styled.section`
 export const Section3 = styled.section`
   display: flex;
   justify-content: center;
+  margin-bottom: 8rem;
 
   @media (max-width: 855px) {
     flex-direction: column;
@@ -139,9 +140,10 @@ export const Section3 = styled.section`
   /* Segunda div (div do texto) */
   div:nth-of-type(1) {
     display: flex;
+    flex-direction: column;
+
     margin-left: 2rem;
     @media (max-width: 855px) {
-      flex-direction: column;
       align-items: center;
       margin-left: 0;
     }
@@ -179,5 +181,46 @@ export const Section3 = styled.section`
     text-decoration: underline;
     color: var(--secondary);
     text-align: center;
+  }
+`;
+
+export const Section4 = styled.section`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 32px;
+    color: var(--gray-24);
+    margin-bottom: 2.5rem;
+    text-align: center;
+    @media (max-width: 855px) {
+      font-size: 22px;
+      max-width: 226px;
+    }
+  }
+
+  p {
+    color: var(--gray-24);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    text-align: center;
+    max-width: 50rem;
+    @media (max-width: 855px) {
+      max-width: 226px;
+    }
+  }
+
+  a {
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 2.5rem;
+    font-weight: 500;
+    text-decoration: underline;
+    color: var(--secondary);
+    text-align: center;
+    max-width: 226px;
   }
 `;
