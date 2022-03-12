@@ -1,4 +1,5 @@
 // Components
+import { ContentSection } from "./components/ContentSection/styles";
 import { Header } from "./components/Header";
 
 // Styles
@@ -8,6 +9,7 @@ function App() {
   return (
     <>
       <Header />
+      <ContentSection />
       <GlobalStyle />
     </>
   );

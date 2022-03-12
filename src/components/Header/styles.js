@@ -10,14 +10,17 @@ export const GradiantLayer = styled.div`
     #7e49c3 39.43%,
     #5912ac 86.02%
   );
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center 0;
 `;
 
 export const Container = styled.header`
   width: 100%;
   height: 40rem;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center 0;
   background-image: url(${headerBackgroundImage});
 
   header {
@@ -42,7 +45,7 @@ export const Container = styled.header`
 
     /* First nav section */
     nav:nth-of-type(1) {
-      @media (max-width: 850px) {
+      @media (max-width: 855px) {
         display: none;
       }
     }
@@ -54,25 +57,27 @@ export const Container = styled.header`
       /* Sign In Button */
       a {
         margin-right: 2rem;
-        @media (max-width: 850px) {
+        @media (max-width: 855px) {
           display: none;
         }
       }
 
       /* Become a Nanny Share Host Button */
       button {
-        @media (max-width: 850px) {
-          margin-right: 1em;
-        }
+        height: 2.75rem;
         width: 234px;
-        color: var(--white);
-        background-color: var(--primary);
         border: 0;
         border-radius: 0.25rem;
-        height: 2.5rem;
+        color: var(--white);
+        background-color: var(--primary);
         transition: filter 0.2s ease;
+
         &:hover {
           filter: brightness(0.9);
+        }
+
+        @media (max-width: 855px) {
+          margin-right: 1em;
         }
       }
     }
