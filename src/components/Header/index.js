@@ -1,4 +1,5 @@
 import logo from "../../assets/images/logo.svg";
+import { HeroSection } from "../HeroSection";
 import { Container, GradiantLayer } from "./styles";
 
 export function Header() {
@@ -17,6 +18,7 @@ export function Header() {
             <a href="/">Sign In</a>
           </nav>
         </header>
+        <HeroSection />
       </Container>
     </GradiantLayer>
   );
