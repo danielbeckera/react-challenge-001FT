@@ -1,6 +1,7 @@
-import { Container, Section1 } from "./styles";
+import { Container, Section1, Section2 } from "./styles";
 
 import imageSection1 from "../../assets/images/ImageSection1.svg";
+import { NewsletterForm } from "../NewsletterForm";
 
 export function MainContent() {
   return (
@@ -33,6 +34,16 @@ export function MainContent() {
           />
         </div>
       </Section1>
+      <Section2>
+        <div>
+          <h3>Are you a parent without a nanny and looking to share?</h3>
+          <p>
+            Leave us your name and email and we’ll update you as soon as a share
+            becomes available in your area!
+          </p>
+          <NewsletterForm />
+        </div>
+      </Section2>
     </Container>
   );
 }

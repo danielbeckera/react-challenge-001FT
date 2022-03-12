@@ -7,6 +7,7 @@ export const Container = styled.div`
 export const Section1 = styled.section`
   display: flex;
   justify-content: center;
+  margin-bottom: 10rem;
 
   div:nth-of-type(1) {
     display: flex;
@@ -78,5 +79,21 @@ export const Section1 = styled.section`
 
   @media (max-width: 855px) {
     flex-direction: column-reverse;
+  }
+`;
+
+export const Section2 = styled.section`
+  h3 {
+    margin-bottom: 1.5rem;
+    font-weight: 500;
+    font-size: 22px;
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 24px;
   }
 `;
