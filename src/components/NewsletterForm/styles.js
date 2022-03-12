@@ -4,6 +4,7 @@ export const Form = styled.form`
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 10rem;
 
   @media (max-width: 855px) {
     flex-direction: column;
@@ -32,7 +33,6 @@ export const Form = styled.form`
     border: 0;
     font-size: 1rem;
     margin-top: 1rem;
-    font-weight: 600;
     transition: filter 0.2s ease;
     &:hover {
       filter: brightness(0.9);

@@ -16,23 +16,30 @@ export const Container = styled.div`
     max-width: 35rem;
     h1 {
       font-weight: 500;
-      font-size: 2.5rem;
+      font-size: 40px;
       color: var(--white);
+      line-height: 48px;
+      letter-spacing: -1px;
 
       @media (max-width: 850px) {
         text-align: center;
+        font-size: 28px;
+        line-height: 32px;
+        letter-spacing: 0;
       }
     }
 
     p {
       padding: 2rem 0;
-      line-height: 1.75rem;
+      line-height: 24px;
       color: var(--white);
-      font-size: 1.125rem;
+      font-size: 18px;
       font-weight: 400;
 
       @media (max-width: 850px) {
         text-align: center;
+        font-size: 16px;
+        line-height: 28px;
       }
     }
 
