@@ -1,5 +1,6 @@
 // Components
-import { ContentSection } from "./components/ContentSection/styles";
+
+import { ContentSection } from "./components/ContentSection";
 import { Header } from "./components/Header";
 
 // Styles
