@@ -6,6 +6,7 @@ import {
   Section4,
   Section5,
   Section6,
+  Divider,
 } from "./styles";
 
 import imageSection1 from "../../assets/images/ImageSection1.svg";
@@ -42,6 +43,7 @@ export function MainContent() {
           />
         </div>
       </Section1>
+      <Divider />
       <Section2>
         <div>
           <h3>Are you a parent without a nanny and looking to share?</h3>
@@ -52,6 +54,7 @@ export function MainContent() {
           <NewsletterForm />
         </div>
       </Section2>
+      <Divider />
       <Section3>
         <img src={imageSection3} alt="platform overview" />
         <div>
@@ -66,6 +69,7 @@ export function MainContent() {
           <a href="/">Read how Bridget’s share (without Hapu) ended over $15</a>
         </div>
       </Section3>
+      <Divider />
       <Section4>
         <h2>A framework built for the long term</h2>
         <p>
@@ -77,6 +81,7 @@ export function MainContent() {
         <a href="/">Read how Hapu’s tribal background defines our app</a>
         <img src={imageSection4} alt="table showing billing history" />
       </Section4>
+      <Divider />
       <Section5>
         <img src={imageSection5} alt="table showing billing history" />
         <h2>Coming soon: Nanny Share Daily Diary!</h2>

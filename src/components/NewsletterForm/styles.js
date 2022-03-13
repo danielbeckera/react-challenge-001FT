@@ -4,7 +4,6 @@ export const Form = styled.form`
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 10rem;
 
   @media (max-width: 855px) {
     flex-direction: column;
@@ -17,10 +16,12 @@ export const Form = styled.form`
     padding: 0 1.5rem;
     height: 48px;
     border-radius: 4px;
-    border: 0;
-    background: #e7e9ee;
+    border: 1px solid var(--gray-88);
     font-weight: 400;
     font-size: 1rem;
+    @media (max-width: 855px) {
+      margin-right: 0;
+    }
   }
 
   button[type="submit"] {

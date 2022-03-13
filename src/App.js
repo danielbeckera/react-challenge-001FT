@@ -1,6 +1,7 @@
 // Components
 
 import { ContentSection } from "./components/ContentSection";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 
 // Styles
@@ -11,6 +12,7 @@ function App() {
     <>
       <Header />
       <ContentSection />
+      <Footer />
       <GlobalStyle />
     </>
   );

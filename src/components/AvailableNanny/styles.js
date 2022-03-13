@@ -3,7 +3,10 @@ import styled from "styled-components";
 export const Container = styled.div`
   display: flex;
   justify-content: center;
-  margin-top: 2rem;
+  padding: 2rem;
+
+  border-bottom: 1px solid #dfdfdf;
+  margin-bottom: 3rem;
 
   section {
     width: 85%;

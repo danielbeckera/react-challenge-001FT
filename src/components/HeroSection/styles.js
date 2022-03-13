@@ -35,11 +35,13 @@ export const Container = styled.div`
       color: var(--white);
       font-size: 18px;
       font-weight: 400;
+      max-width: 584px;
 
       @media (max-width: 850px) {
         text-align: center;
         font-size: 16px;
         line-height: 28px;
+        max-width: 328px;
       }
     }
 

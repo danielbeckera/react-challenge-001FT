@@ -4,10 +4,20 @@ export const Container = styled.div`
   margin-top: 7rem;
 `;
 
+export const Divider = styled.div`
+  margin: 0 auto;
+  width: 784px;
+  border: 2px solid #dfdfdf;
+  margin-bottom: 6rem;
+  margin-top: 6rem;
+  @media (max-width: 855px) {
+    width: 328px;
+  }
+`;
+
 export const Section1 = styled.section`
   display: flex;
   justify-content: center;
-  margin-bottom: 10rem;
 
   /* Primeira div do section */
   div:nth-of-type(1) {
@@ -22,6 +32,13 @@ export const Section1 = styled.section`
       align-self: flex-start;
       @media (max-width: 855px) {
         align-self: center;
+      }
+    }
+
+    p {
+      max-width: 444px;
+      @media (max-width: 855px) {
+        max-width: 328px;
       }
     }
   }
@@ -118,7 +135,7 @@ export const Section2 = styled.section`
 export const Section3 = styled.section`
   display: flex;
   justify-content: center;
-  margin-bottom: 8rem;
+  margin-bottom: 5rem;
 
   @media (max-width: 855px) {
     flex-direction: column;
@@ -167,9 +184,10 @@ export const Section3 = styled.section`
     font-weight: 400;
     font-size: 16px;
     line-height: 28px;
-    max-width: 24rem;
+    max-width: 484px;
     @media (max-width: 855px) {
       text-align: center;
+      max-width: 328px;
     }
   }
 
@@ -180,7 +198,9 @@ export const Section3 = styled.section`
     font-weight: 500;
     text-decoration: underline;
     color: var(--secondary);
-    text-align: center;
+    @media (max-width: 855px) {
+      text-align: center;
+    }
   }
 `;
 
@@ -207,9 +227,9 @@ export const Section4 = styled.section`
     font-size: 16px;
     line-height: 28px;
     text-align: center;
-    max-width: 50rem;
+    max-width: 784px;
     @media (max-width: 855px) {
-      max-width: 285px;
+      max-width: 328px;
     }
   }
 
@@ -243,7 +263,6 @@ export const Section5 = styled.section`
   align-items: center;
 
   img {
-    margin-top: 10rem;
   }
 
   h2 {
