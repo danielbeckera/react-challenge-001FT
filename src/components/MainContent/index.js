@@ -1,7 +1,18 @@
-import { Container, Section1, Section2, Section3, Section4 } from "./styles";
+import {
+  Container,
+  Section1,
+  Section2,
+  Section3,
+  Section4,
+  Section5,
+  Section6,
+} from "./styles";
 
 import imageSection1 from "../../assets/images/ImageSection1.svg";
 import imageSection3 from "../../assets/images/ImageSection3.svg";
+import imageSection4 from "../../assets/images/ImageSection4.svg";
+import imageSection5 from "../../assets/images/ImageSection5.svg";
+import agendaIcon from "../../assets/icons/AgendaIcon.svg";
 import { NewsletterForm } from "../NewsletterForm";
 
 export function MainContent() {
@@ -64,7 +75,30 @@ export function MainContent() {
           process, transparency over money and equality of participation.
         </p>
         <a href="/">Read how Hapu’s tribal background defines our app</a>
+        <img src={imageSection4} alt="table showing billing history" />
       </Section4>
+      <Section5>
+        <img src={imageSection5} alt="table showing billing history" />
+        <h2>Coming soon: Nanny Share Daily Diary!</h2>
+        <p>
+          With the Hapu daily diary your nanny will be able to update you and
+          your sharers with photos and commentary of the day. You and sharers
+          will receive notifications and you’ll be able to login to view the
+          daily adventures fo your little ones. We can’t wait!
+        </p>
+      </Section5>
+      <Section6>
+        <h2>Become a nanny share host</h2>
+        <p>Takes less than 5 minutes to get started</p>
+        <button>
+          <img src={agendaIcon} alt="button with agenda icon" />
+          <div>
+            <p>Create Your Nanny Share</p>
+            <p className="buttonHelperText">Takes less than 5 minutes</p>
+          </div>
+        </button>
+        <a href="/">Or browse local nanny-shares</a>
+      </Section6>
     </Container>
   );
 }
