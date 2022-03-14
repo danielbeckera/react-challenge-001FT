@@ -45,6 +45,11 @@ export const Form = styled.form`
   }
 `;
 
+export const CenteredDiv = styled.div`
+  display: flex;
+  justify-content: center;
+`;
+
 export const ErrorMsg = styled.p`
   color: red !important;
   font-size: 14px !important;

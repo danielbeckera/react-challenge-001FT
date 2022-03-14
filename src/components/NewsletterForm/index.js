@@ -1,7 +1,7 @@
 import axios from "axios";
 import { useState, useEffect } from "react";
 
-import { Form, ErrorMsg, SuccessMsg, Spinner } from "./styles";
+import { Form, ErrorMsg, SuccessMsg, Spinner, CenteredDiv } from "./styles";
 
 export function NewsletterForm() {
   const [userInfo, setUserInfo] = useState({ name: "", email: "" });
@@ -57,7 +57,9 @@ export function NewsletterForm() {
   };
 
   return isLoading ? (
-    <Spinner />
+    <CenteredDiv>
+      <Spinner />
+    </CenteredDiv>
   ) : (
     <Form onSubmit={preventDefault}>
       <div>
