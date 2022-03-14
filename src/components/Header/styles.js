@@ -45,7 +45,7 @@ export const Container = styled.header`
 
     /* First nav section */
     nav:nth-of-type(1) {
-      @media (max-width: 855px) {
+      @media (max-width: 875px) {
         display: none;
       }
     }
@@ -57,7 +57,7 @@ export const Container = styled.header`
       /* Sign In Button */
       a {
         margin-right: 2rem;
-        @media (max-width: 855px) {
+        @media (max-width: 875px) {
           display: none;
         }
       }
@@ -76,7 +76,7 @@ export const Container = styled.header`
           filter: brightness(0.9);
         }
 
-        @media (max-width: 855px) {
+        @media (max-width: 875px) {
           margin-right: 1em;
         }
       }

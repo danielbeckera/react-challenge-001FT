@@ -35,12 +35,12 @@ export const Container = styled.div`
     p {
       text-align: center;
 
-      @media (max-width: 855px) {
+      @media (max-width: 875px) {
         margin-top: 1rem;
       }
     }
 
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       flex-direction: column;
     }
   }

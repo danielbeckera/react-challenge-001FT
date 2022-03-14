@@ -6,13 +6,14 @@ export const FooterContainer = styled.footer`
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin-left: 2rem;
 
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       flex-direction: column;
     }
 
     img {
-      @media (max-width: 855px) {
+      @media (max-width: 875px) {
         margin-bottom: 2rem;
       }
     }
@@ -20,7 +21,7 @@ export const FooterContainer = styled.footer`
       display: flex;
       justify-content: center;
 
-      @media (max-width: 855px) {
+      @media (max-width: 875px) {
         flex-direction: row;
         flex-wrap: wrap;
       }
@@ -30,7 +31,7 @@ export const FooterContainer = styled.footer`
         font-weight: 500;
         margin-left: 3.5rem;
 
-        @media (max-width: 855px) {
+        @media (max-width: 875px) {
           margin-bottom: 1rem;
         }
       }
@@ -45,14 +46,14 @@ export const FooterContainer = styled.footer`
   }
 
   p {
-    margin-right: 2rem;
-    margin-top: 1rem;
+    margin-right: 0rem;
+    margin-top: 4rem;
     margin-bottom: 3rem;
     font-size: 12px;
     line-height: 16px;
     text-align: center;
     opacity: 0.6;
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       margin-right: 0;
     }
   }

@@ -7,7 +7,7 @@ export const Container = styled.div`
 
   margin-top: 6.5rem;
 
-  @media (max-width: 850px) {
+  @media (max-width: 875px) {
     padding: 1rem 2rem;
   }
 
@@ -21,7 +21,7 @@ export const Container = styled.div`
       line-height: 48px;
       letter-spacing: -1px;
 
-      @media (max-width: 850px) {
+      @media (max-width: 875px) {
         text-align: center;
         font-size: 28px;
         line-height: 32px;
@@ -37,7 +37,7 @@ export const Container = styled.div`
       font-weight: 400;
       max-width: 584px;
 
-      @media (max-width: 850px) {
+      @media (max-width: 875px) {
         text-align: center;
         font-size: 16px;
         line-height: 28px;
@@ -50,7 +50,7 @@ export const Container = styled.div`
       text-decoration: underline;
     }
 
-    @media (max-width: 850px) {
+    @media (max-width: 875px) {
       width: 100%;
     }
   }
@@ -65,7 +65,7 @@ export const Container = styled.div`
     margin-top: 3rem;
     margin-left: 12em;
 
-    @media (max-width: 850px) {
+    @media (max-width: 875px) {
       display: none;
     }
   }

@@ -10,7 +10,7 @@ export const Divider = styled.div`
   border: 2px solid #dfdfdf;
   margin-bottom: 6rem;
   margin-top: 6rem;
-  @media (max-width: 855px) {
+  @media (max-width: 875px) {
     width: 328px;
   }
 `;
@@ -24,20 +24,20 @@ export const Section1 = styled.section`
     display: flex;
     flex-direction: column;
 
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       align-items: center;
     }
 
     a {
       align-self: flex-start;
-      @media (max-width: 855px) {
+      @media (max-width: 875px) {
         align-self: center;
       }
     }
 
     p {
       max-width: 444px;
-      @media (max-width: 855px) {
+      @media (max-width: 875px) {
         max-width: 328px;
       }
     }
@@ -49,7 +49,7 @@ export const Section1 = styled.section`
     font-size: 28px;
     font-weight: 500;
 
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       text-align: center;
       font-size: 22px;
     }
@@ -63,7 +63,7 @@ export const Section1 = styled.section`
     font-size: 16px;
     color: var(--gray-24);
 
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       text-align: center;
       max-width: 21rem;
     }
@@ -91,20 +91,20 @@ export const Section1 = styled.section`
     height: 392px;
     width: 520px;
 
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       width: 300px;
       height: 250px;
     }
   }
 
-  @media (max-width: 855px) {
+  @media (max-width: 875px) {
     flex-direction: column-reverse;
   }
 `;
 
 export const Section2 = styled.section`
   div:nth-of-type(1) {
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       max-width: 22rem;
       margin: 0 auto;
     }
@@ -126,7 +126,7 @@ export const Section2 = styled.section`
     text-align: center;
     margin-bottom: 2rem;
     color: var(--gray-24);
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       font-size: 16px;
     }
   }
@@ -137,7 +137,7 @@ export const Section3 = styled.section`
   justify-content: center;
   margin-bottom: 5rem;
 
-  @media (max-width: 855px) {
+  @media (max-width: 875px) {
     flex-direction: column;
     align-items: center;
   }
@@ -147,7 +147,7 @@ export const Section3 = styled.section`
     height: 336px;
     width: 456px;
 
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       width: 300px;
       height: 250px;
       margin-bottom: 2rem;
@@ -160,7 +160,7 @@ export const Section3 = styled.section`
     flex-direction: column;
 
     margin-left: 2rem;
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       align-items: center;
       margin-left: 0;
     }
@@ -172,7 +172,7 @@ export const Section3 = styled.section`
     line-height: 32px;
     color: var(--gray-24);
     margin-bottom: 2.5rem;
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       text-align: center;
       font-size: 22px;
       max-width: 226px;
@@ -185,7 +185,7 @@ export const Section3 = styled.section`
     font-size: 16px;
     line-height: 28px;
     max-width: 484px;
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       text-align: center;
       max-width: 328px;
     }
@@ -198,7 +198,7 @@ export const Section3 = styled.section`
     font-weight: 500;
     text-decoration: underline;
     color: var(--secondary);
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       text-align: center;
     }
   }
@@ -215,7 +215,7 @@ export const Section4 = styled.section`
     color: var(--gray-24);
     margin-bottom: 2.5rem;
     text-align: center;
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       font-size: 22px;
       max-width: 226px;
     }
@@ -228,7 +228,7 @@ export const Section4 = styled.section`
     line-height: 28px;
     text-align: center;
     max-width: 784px;
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       max-width: 328px;
     }
   }
@@ -242,16 +242,16 @@ export const Section4 = styled.section`
     text-decoration: underline;
     color: var(--secondary);
     text-align: center;
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       max-width: 280px;
     }
   }
 
   img {
     height: 392px;
-    width: 984px;
+    width: 875px;
 
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       display: none;
     }
   }
@@ -262,9 +262,6 @@ export const Section5 = styled.section`
   flex-direction: column;
   align-items: center;
 
-  img {
-  }
-
   h2 {
     font-weight: 500;
     font-size: 28px;
@@ -273,7 +270,7 @@ export const Section5 = styled.section`
     margin-bottom: 2.5rem;
     text-align: center;
     margin-top: 2rem;
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       font-size: 22px;
       max-width: 300px;
     }
@@ -287,7 +284,7 @@ export const Section5 = styled.section`
     text-align: center;
     max-width: 784px;
     margin-bottom: 10rem;
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       max-width: 328px;
     }
   }
@@ -306,7 +303,7 @@ export const Section6 = styled.section`
     margin-bottom: 1rem;
     text-align: center;
     margin-top: 2rem;
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       font-size: 22px;
       max-width: 300px;
       margin-bottom: 0;
@@ -321,7 +318,7 @@ export const Section6 = styled.section`
     text-align: center;
     max-width: 342px;
     margin-bottom: 1rem;
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       max-width: 304px;
       font-size: 16px;
     }
@@ -338,6 +335,10 @@ export const Section6 = styled.section`
     width: 304px;
     margin-bottom: 2rem;
     margin-top: 1rem;
+    transition: filter 0.2s ease;
+    &:hover {
+      filter: brightness(0.9);
+    }
 
     div {
       display: flex;
@@ -364,7 +365,7 @@ export const Section6 = styled.section`
     text-decoration: underline;
     color: var(--secondary);
     text-align: center;
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       max-width: 280px;
     }
   }
