@@ -9,9 +9,7 @@ export default function AvailableNanny() {
         <div className="nannyAvailable">
           <a href="/">Sarah’s day care available now in North Sydney</a>
         </div>
-        <p>
-          <strong>Wednesday, Thursday, Friday - 7:30 - 5:30</strong>
-        </p>
+        <p>Wednesday, Thursday, Friday - 7:30 - 5:30</p>
       </section>
     </Container>
   );

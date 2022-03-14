@@ -9,7 +9,6 @@ export const Container = styled.div`
   margin-bottom: 3rem;
 
   section {
-    width: 85%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,9 +33,12 @@ export const Container = styled.div`
 
     p {
       text-align: center;
+      color: var(--gray-00);
+      font-weight: 500;
 
       @media (max-width: 875px) {
         margin-top: 1rem;
+        font-size: 14px;
       }
     }
 

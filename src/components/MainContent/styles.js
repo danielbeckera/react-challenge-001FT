@@ -199,6 +199,8 @@ export const Section3 = styled.section`
     text-decoration: underline;
     color: var(--secondary);
     @media (max-width: 875px) {
+      max-width: 328px;
+
       text-align: center;
     }
   }

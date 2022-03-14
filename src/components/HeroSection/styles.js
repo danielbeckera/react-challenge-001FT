@@ -12,7 +12,7 @@ export const Container = styled.div`
   }
 
   /* Section esquerda */
-  section:nth-of-type(1) {
+  .leftSection {
     max-width: 35rem;
     h1 {
       font-weight: 500;
@@ -56,7 +56,7 @@ export const Container = styled.div`
   }
 
   /* Section direita */
-  section:nth-of-type(2) {
+  .rightSection {
     display: flex;
     justify-content: center;
 

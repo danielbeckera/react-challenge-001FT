@@ -1,4 +1,4 @@
-import { FooterContainer } from "./styles";
+import { FooterContainer, Divider } from "./styles";
 import logo from "../../assets/images/footerLogo.svg";
 
 import facebook from "../../assets/icons/Facebook.svg";
@@ -16,7 +16,7 @@ export function Footer() {
           <a href="/">Blog</a>
           <a href="/">Terms & Privacy</a>
         </div>
-        <div>
+        <div className="icons">
           <a href="/">
             <img src={facebook} alt="button facebook icon" />
           </a>
@@ -28,7 +28,7 @@ export function Footer() {
           </a>
         </div>
       </div>
-      <span></span>
+      <Divider />
       <p>Copyright © 2017 Hapu PTY Limited All rights reserved</p>
     </FooterContainer>
   );

@@ -14,6 +14,7 @@ import imageSection3 from "../../assets/images/ImageSection3.svg";
 import imageSection4 from "../../assets/images/ImageSection4.svg";
 import imageSection5 from "../../assets/images/ImageSection5.svg";
 import agendaIcon from "../../assets/icons/AgendaIcon.svg";
+
 import { NewsletterForm } from "../NewsletterForm";
 
 export function MainContent() {
