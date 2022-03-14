@@ -6,10 +6,11 @@ export const FooterContainer = styled.footer`
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-left: 2rem;
+    margin-left: 3rem;
 
     @media (max-width: 875px) {
       flex-direction: column;
+      margin-left: 0;
     }
 
     img {
@@ -24,15 +25,16 @@ export const FooterContainer = styled.footer`
       @media (max-width: 875px) {
         flex-direction: row;
         flex-wrap: wrap;
+        max-width: 250px;
       }
 
       a {
         font-size: 14px;
         font-weight: 500;
-        margin-left: 3.5rem;
 
         @media (max-width: 875px) {
           margin-bottom: 1rem;
+          margin-left: 1rem;
         }
       }
     }

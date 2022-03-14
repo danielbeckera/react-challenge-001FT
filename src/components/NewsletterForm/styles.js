@@ -5,7 +5,7 @@ export const Form = styled.form`
   justify-content: center;
   align-items: center;
 
-  @media (max-width: 855px) {
+  @media (max-width: 875px) {
     flex-direction: column;
   }
 
@@ -19,7 +19,7 @@ export const Form = styled.form`
     border: 1px solid var(--gray-88);
     font-weight: 400;
     font-size: 1rem;
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       margin-right: 0;
     }
   }
@@ -39,7 +39,7 @@ export const Form = styled.form`
       filter: brightness(0.9);
     }
 
-    @media (max-width: 855px) {
+    @media (max-width: 875px) {
       width: 328px;
     }
   }
